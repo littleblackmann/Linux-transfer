@@ -14,28 +14,28 @@
 ---
 
 ### A Linux 跟 B Linux 都先安裝
-`sudo apt update`
-`sudo apt install mariadb-server apache2`
+* `sudo apt update`
+* `sudo apt install mariadb-server apache2`
 
 ### 啟動apache2
-`sudo systemctl start apache2`
-`sudo systemctl enable apache2`
+* `sudo systemctl start apache2`
+* `sudo systemctl enable apache2`
 
 ### B主機安裝
-`sudo apt update`
+* `sudo apt update`
 #安裝server
-`sudo apt install openssh-server` 
+* `sudo apt install openssh-server` 
 #啟動ssh
-`sudo systemctl start ssh`        
+* `sudo systemctl start ssh`        
 #確認有沒有開啟
-`sudo ss -tuln | grep :22`        
+* `sudo ss -tuln | grep :22`        
 
 
 ---
 
 # A Linux東西打包指令
-`nano test1.sh`
-`chmod +x test1.sh`
+* `nano test1.sh`
+* `chmod +x test1.sh`
 ```
 #!/bin/bash
 
@@ -70,8 +70,8 @@ echo "傳輸完成。"
 
 ---
 # B Linux解壓打包傳輸過來指令，解壓檔案到家目錄
-`nano good.sh`
-`chmod +x good.sh`
+* `nano good.sh`
+* `chmod +x good.sh`
 
 ```
 #!/bin/bash

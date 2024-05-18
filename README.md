@@ -34,8 +34,8 @@
 ---
 
 # A Linux東西打包指令
-### nano test1.sh
-### chmod +x test1.sh
+`nano test1.sh`
+`chmod +x test1.sh`
 ```
 #!/bin/bash
 
@@ -70,8 +70,8 @@ echo "傳輸完成。"
 
 ---
 # B Linux解壓打包傳輸過來指令，解壓檔案到家目錄
-### nano good.sh
-### chmod +x good.sh
+`nano good.sh`
+`chmod +x good.sh`
 
 ```
 #!/bin/bash
